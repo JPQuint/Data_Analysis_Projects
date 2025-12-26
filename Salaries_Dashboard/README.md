@@ -9,13 +9,22 @@ This data jobs salary dashboard shows information about the global data job mark
 ### Dashboard File
 My final dashboard is in [Salary_Dashboard.xlsx](Data_Jobs_Dashboard.xlsx).
 
+### Data Jobs Dataset
+
+The dataset used for this project contains real-world data science job information from 2023. It includes detailed information on:
+
+- **👨‍💼 Job titles**
+- **💰 Salaries**
+- **📍 Locations**
+- **🛠️ Skills**
+
+
 ### Excel Skills Used
 
 The following Excel skills were utilized for analysis:
 
 - **📉 Charts**
 - **🧮 Formulas and Functions**
-- **❎ Data Validation**
 
 
 ## Dashboard Build
@@ -87,17 +96,6 @@ IF(
 
 <img src="/0_Resources/Images/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
 
-### ❎ Data Validation
-
-#### 🔍 Filtered List
-
-- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
-    - 🎯 User input is restricted to predefined, validated schedule types
-    - 🚫 Incorrect or inconsistent entries are prevented
-    - 👥 Overall usability of the dashboard is enhanced
-
-<img src="/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">
-
 ## Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
+Some insights extracted from this dashboard are that analysts earn less than scientist or engineers, the median salary of a Data Analyst tend to be around $90,000 yearly and Indeed is a very popular job portal for data-related jobs. Unfortunatly, the data set doesn't have the sufficient data for making quality insights about the market in Mexico.
