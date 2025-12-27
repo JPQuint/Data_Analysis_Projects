@@ -2,8 +2,6 @@
 
 ![1_Salary_Dashboard.png](/Resources/Images/1_Salaries_Calculator.gif)
 
-## Introduction.gif)
-
 ## Introduction
 
 This data jobs salary dashboard shows information about the global data job market in 2023. Its purpose is to give superficial context for data job seekers about the market. Although the data is very US centered, it allows to explore job postings, median salaries and recruitment portals across the globe.
