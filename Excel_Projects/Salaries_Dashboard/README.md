@@ -1,6 +1,8 @@
 # Excel Salary Dashboard
 
-![1_Salary_Dashboard.png](insert.gif)
+![1_Salary_Dashboard.png](/Resources/Images/1_Salaries_Calculator.gif)
+
+## Introduction.gif)
 
 ## Introduction
 
