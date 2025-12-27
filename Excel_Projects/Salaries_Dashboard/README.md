@@ -33,7 +33,7 @@ The following Excel skills were utilized for analysis:
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
-<img src="/Resources/Images/1_Salaries_Dashboard_Chart.png" width="850" height="550" alt="Salary Dashboard Chart1">
+<img src="/Resources/Images/1_Salaries_Dashboard_Chart.JPG" width="850" height="550" alt="Salary Dashboard Chart1">
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
