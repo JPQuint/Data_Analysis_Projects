@@ -2,7 +2,7 @@
 
 # Excel Salary Dashboard
 
-![1_Salary_Dashboard.png](/Resources/Images/Excel_projects/1_Salaries_Calculator.gif)
+![1_Salaries_Calculator.gif](0_/Resources/Images/Excel_projects/1_Salaries_Calculator.gif)
 
 ## Introduction
 
@@ -35,7 +35,7 @@ The following Excel skills were utilized for analysis:
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
-<img src="/Resources/Images/Excel_projects/1_Salaries_Dashboard_Chart.JPG" width="850" height="550" alt="Salary Dashboard Chart1">
+<img src="/0_Resources/Images/Excel_projects/1_Salaries_Dashboard_Chart.JPG" width="850" height="550" alt="Salary Dashboard Chart1">
 
 - **Excel Features:** Utilized bar chart feature with formatted salary values.
 - **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
@@ -44,7 +44,7 @@ The following Excel skills were utilized for analysis:
 
 #### 🗺️ Country Median Salaries - Map Chart
 
-![1_Salary_Dashboard_Chart2.png](/Resources/Images/Excel_projects/1_Salary_Dashboard_Country_Map.gif)
+![1_Salary_Dashboard_Country_Map.gif](/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Country_Map.gif)
 
 - **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
 - **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
@@ -74,11 +74,11 @@ IF(
 
 *Background Table:*
 
-![1_Salary_Dashboard_Screenshot1.png](/Resources/Images/Excel_projects/1_Salary_Dashboard_Table1.png)
+![1_Salary_Dashboard_Table1.png](/0_esources/Images/Excel_projects/1_Salary_Dashboard_Table1.png)
 
 📉 Dashboard Implementation
 
-<img src="/Resources/Images/Excel_projects/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Salary Dashboard Title">
+<img src="/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Salary Dashboard Title">
 
 #### Count of Job Schedule Type
 
@@ -91,11 +91,11 @@ IF(
 
 *Background Table:*
 
-![1_Salary_Dashboard_Type.png](/Resources/Images/Excel_Projects/1_Salary_Dashboard_Table2.png)
+![1_Salary_Dashboard_Table2.png](/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Table2.png)
 
 📉 Dashboard Implementation:
 
-<img src="/Resources/Images/Excel_projects/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
+<img src="/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
 
 ## Conclusion
 

@@ -2,7 +2,7 @@
 
 # Dashboard de Salarios en Excel
 
-![1_Salary_Dashboard.png](/Resources/Images/Excel_projects/1_Salaries_Calculator.gif)
+![1_Salaries_Calculator.gif](/0_Resources/Images/Excel_projects/1_Salaries_Calculator.gif)
 
 ## Introducción
 
@@ -33,7 +33,7 @@ Las siguientes habilidades de Excel fueron utilizadas para el análisis:
 
 #### Salarios de Empleos en Ciencia de Datos – Gráfica de Barras
 
-<img src="/Resources/Images/Excel_projects/1_Salaries_Dashboard_Chart.JPG" width="850" height="550" alt="Gráfica de salarios del dashboard">
+<img src="/0_Resources/Images/Excel_projects/1_Salaries_Dashboard_Chart.JPG" width="850" height="550" alt="Gráfica de salarios del dashboard">
 
 - **Funciones de Excel:** Uso de gráficos de barras con valores de salario formateados.
 - **Decisión de diseño:** Gráfica de barras horizontales para facilitar la comparación visual de la mediana de salarios.
@@ -42,7 +42,7 @@ Las siguientes habilidades de Excel fueron utilizadas para el análisis:
 
 #### 🗺️ Salarios Medianos por País – Mapa
 
-![1_Salary_Dashboard_Chart2.png](/Resources/Images/Excel_projects/1_Salary_Dashboard_Country_Map.gif)
+![1_Salary_Dashboard_Country_Map.gif](/0_esources/Images/Excel_projects/1_Salary_Dashboard_Country_Map.gif)
 
 - **Funciones de Excel:** Uso del gráfico de mapa de Excel para representar salarios medianos a nivel global.
 - **Decisión de diseño:** Mapa codificado por colores para diferenciar visualmente los niveles salariales entre regiones.
@@ -72,11 +72,11 @@ IF(
 
 *Tabla de Fondo:*
 
-![1_Salary_Dashboard_Screenshot1.png](/Resources/Images/Excel_projects/1_Salary_Dashboard_Table1.png) 
+![1_Salary_Dashboard_Table1.png](/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Table1.png) 
 
 📉 Implementación en el Dashboard
 
-<img src="/Resources/Images/Excel_projects/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Título del dashboard de salarios">
+<img src="/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Título del dashboard de salarios">
 
 #### Conteo por Tipo de Jornada Laboral
 
@@ -88,11 +88,11 @@ IF(
 
 *Tabla de Fondo:*
 
-![1_Salary_Dashboard_Type.png](/Resources/Images/Excel_projects/1_Salary_Dashboard_Table2.png)
+![1_Salary_Dashboard_Table2.png](/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Table2.png)
 
 📉 Implementación en el Dashboard
 
-<img src="/Resources/Images/Excel_projects/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Tipo de jornada en el dashboard">
+<img src="/0_Resources/Images/Excel_projects/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Tipo de jornada en el dashboard">
 
 ## Conclusión
 
