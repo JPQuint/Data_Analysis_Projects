@@ -6,6 +6,15 @@ Este proyecto consiste en un análisis del mercado laboral para puestos de anali
 
 🔍 ¿Consultas SQL? Revísalas aquí: [carpeta project_sql](/project_sql/)
 
+### Conjunto de Datos de Empleos en Datos
+
+El conjunto de datos utilizado para este proyecto contiene información real de empleos en análisis, ingeniería y ciencia de datos correspondiente a 2023. Incluye información detallada sobre:
+
+- **👨‍💼 Puestos de trabajo**
+- **💰 Salarios**
+- **📍 Ubicaciones**
+- **🛠️ Habilidades**
+
 ### Las preguntas que busqué responder mediante mis consultas SQL fueron:
 
 1. ¿Cuáles son los empleos mejor pagados para analistas de datos en México?

@@ -5,6 +5,15 @@ This project consists of an analysis of the data job market in 2023 for data ana
 
 🔍 SQL queries? Check them out here: [project_sql folder](/project_sql/)
 
+### Data Jobs Dataset
+
+The dataset used for this project contains real-world data science job information from 2023. It includes detailed information on:
+
+- **👨‍💼 Job titles**
+- **💰 Salaries**
+- **📍 Locations**
+- **🛠️ Skills**
+
 ### The questions I wanted to answer through my SQL queries were:
 
 1. What are the top-paying data analyst jobs in Mexico?
