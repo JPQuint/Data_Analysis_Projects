@@ -1,7 +1,7 @@
 🌎 Read this in: [English](README.md) | [Español](README.es.md)
 
 # Introduction
-This project consists of an analysis of the data job market in 2023 for data analysts in Mexico, it includes top-paying jobs, in-demand skills and optimal skills to learn. Its objective is to give detailed insights into the state of the job market such that data analysts in Mexico can make informed decisions about their professional careers. 
+This project consists of an analysis of the data job market in 2023 for data analysts offers in Mexico, it includes top-paying jobs, in-demand skills and optimal skills to learn. Its objective is to give detailed insights into the state of the job market such that data analysts in Mexico can make informed decisions about their professional careers. 
 
 🔍 SQL queries? Check them out here: [project_sql folder](/project_sql/)
 
@@ -17,7 +17,7 @@ This project consists of an analysis of the data job market in 2023 for data ana
 For my deep dive into the data analyst job market, I used several key tools:
 
 - **SQL:** The backbone of my analysis, allowing me to query the database and unearth critical insights.
-- **PostgreSQL:** The chosen database management system, ideal for handling the job posting data.
+- **PostgreSQL:** The chosen database management system.
 - **Visual Studio Code:** My go-to for database management and executing SQL queries.
 - **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 
@@ -50,9 +50,7 @@ WHERE
     jobs.job_title_short = 'Data Analyst'
     AND jobs.job_location LIKE '%Mexico%';
 ```
-
-Here's the breakdown of the top data analyst jobs in 2023:
-- **Salaries data:** Out of 2736 job postings for Data Analysts in Mexico, only 39 (1.4%) posted a salary offering rated yearly.
+- **Salaries data:** Out of 2736 job postings for Data Analysts in Mexico, only 39 (1.4%) posted a salary offering, all of them rated yearly.
 - **Skills data:** Out of 2736 job postings for Data Analysts in Mexico, 2292 (83%) posted skills.
 - **Conclusion:** Almost none of the retrieved job posting for Data Analysts in Mexico contain an offered salary, so any analysis using this metric must be taken with a grain of salt. On the other hand, skills data is much richer. Nonetheless, for the sake of the project I will be using both metrics.
 
@@ -81,8 +79,8 @@ ORDER BY salary_year_avg DESC
 LIMIT 10;
 ```
 Here's the breakdown of the top 10 data analyst jobs in 2023:
-- **Similar salaries:** Although the most paying job offered $165,000 yearly, 7 of the top salaries in Mexico offered closed to or exactly $111,175 yearly, signaling a cap for Data Analysts salaries.
-- **CDMX bias:** 6 of the best paying jobs are in CDMX while no other city repeats itself, making CDMX the best location for high profile Data Analysts in Mexico. 
+- **Salary cap:** Although the most paying job offered $165,000 yearly, 7 of the top salaries in Mexico offered closed to or exactly $111,175 yearly, signaling a cap for Data Analysts salaries.
+- **CDMX's concentration:** 6 of the best paying jobs are in CDMX while no other city repeats itself, making CDMX the best location for high profile Data Analysts in Mexico. 
 - **Job postings dates:** Out of the 10 best payings offers, 6 were posted in the first trimester of the year and the most late posting was in July. This means that the best opportunities are announced early in the year and they taper off towards the end.
 
 ### 2. Skills for Top Paying Jobs
@@ -161,7 +159,7 @@ Here's the breakdown of the most demanded skills for data analysts in 2023 in Me
 | Tableau  | 609          |
 | Power BI | 594          |
 
-*Table of the demand for the top 5 skills in data analyst job postings in Mexico*
+*Table of the top 5 most demanded skills in data analyst job postings in Mexico*
 
 ### 4. Skills Based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
@@ -246,7 +244,7 @@ LIMIT 10;
 Here's a breakdown of the most optimal skills for Data Analysts in 2023 in Mexico: 
 - **Disparity in demand and pay:** The most demanded skills such as excel, tableau and PowerBI don't come with specially high salaries, the only exception to the rule could be SQL.
 - **Programming languages:** Python and R show some of the highest pays and good demand. Although, no other programming language is featured in the table.
-- **Business Intelligence and Visualization Tools:** Tableau, Looker, and PowerBI feature in the table with similar pay range, signaling the importance of visualizations technologies.
+- **Business Intelligence and Visualization Tools:** Tableau, Looker, and PowerBI feature in the table with good demand and similar pay range, signaling the importance of visualizations technologies.
 
 # What I Learned
 
@@ -261,10 +259,14 @@ Throughout this project I developed some SQL abilities.
 ### Insights
 From the analysis, several general insights emerged:
 
-1. **Highest salaries:**  This data set shows that little job offers in Mexico for Data Analysts post the salary, making it difficult to obtain quality salary insights. Nonetheless, the analysis shows an average salary cap and CDMX bias for high paying jobs.
-2. **Skills for Top-Paying Jobs**: It seems that high-paying data analyst jobs in Mexico require advanced strong SQL, Python and data visualizations skills.
+1. **Highest salaries:**  This data set shows that little job offers in Mexico for Data Analysts post the salary, making it difficult to obtain quality salary insights. Nonetheless, the analysis shows an aproximate salary cap of $115,000 USD and a CDMX bias for high paying jobs.
+
+2. **Skills for Top-Paying Jobs**: It seems that high-paying data analyst jobs in Mexico require strong SQL, Python and data visualizations skills.
+
 3. **Most In-Demand Skills**: SQL was the most demanded skill in the data analyst job market followed by Excel and Python in Mexico and the world, thus making them essential for job seekers.
+
 4. **Skills with Higher Salaries**: According to this data set, specific programin skills and big data/cloud technologies were very well paid in Mexico in 2023. But the lack of posted salaries makes this insight questionable.
+
 5. **Optimal Skills for Job Market Value**: What is clear is that SQL leads in demand across all the salary spectrum, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value. Other skills such as Excel, tableau or PowerBI cannot be ignored, but Python seems to be well-demanded and well-paid.
 
 ### Closing Thoughts
