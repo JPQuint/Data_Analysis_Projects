@@ -2,7 +2,7 @@
 
 # Excel Salary Dashboard
 
-![1_Salaries_Calculator.gif](0_/Resources/Images/Excel_projects/1_Salaries_Calculator.gif)
+![1_Salaries_Calculator.gif](/0_Resources/Images/Excel_projects/1_Salaries_Calculator.gif)
 
 ## Introduction
 
