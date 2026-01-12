@@ -24,3 +24,4 @@ Objetivo: El objetivo principal es otorgar información relevante para analistas
 ¿Cómo se quiere ayudar al usuario? Se le quiere proporcionar datos sobre salarios, número de puestos, fechas de ofertas,
 locaciones de las ofertas y habilidades requeridas para que pueda tomar decisiones informadas sobre su futuro profesional.
 
+ Indicadores: median yearly salary (hourly), most demanded skills, job postingg trends, wfh and dregreee mention.
