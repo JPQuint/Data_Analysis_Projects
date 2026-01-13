@@ -6,14 +6,14 @@
 
 ## Introduction
 
-This dashboard was created for **Job Seekers** to solve a common problem: information about the data job market is scattered and hard to grasp. Using a real-world dataset of 2024 data science job postings (including titles, salaries, and locations), this project provides a single, easy-to-use interface to explore market trends and compensation.
+This dashboard was created for **Job Seekers** with the objective of providing real and precisa data about the data science job market in 2024 (including titles, salaries, and locations).This project provides a single, easy-to-use interface to explore market trends and compensation.
 
 ### Dashboard File
 You can find the file for the dashboard here: [`Data_Jobs_Dashboard.pbix`](Data_Jobs_Dashboard.pbix).  
 
 ## Skills Showcased
 
-This project multiple required Power Bi features
+This project required multiple Power Bi features:
 
 -   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
 
@@ -50,6 +50,6 @@ This is the deep-dive page. From the main dashboard, you can drill through to th
 
 ---
 
-## Conclusion
+## Conclusión
 
 This dashboard showcases how Power BI can transform raw job posting data into a powerful tool for career analysis. It allows users to slice, filter, and drill through data to make informed decisions about their career paths.

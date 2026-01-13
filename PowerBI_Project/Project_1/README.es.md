@@ -1,21 +1,19 @@
 🌎 Read this in: [English](README.md) | [Español](README.es.md)
 
-🌎 Leer esto en: [English](README.md) | [Español](README.es.md)
-
 # Dashboard de Empleos en Datos con Power BI
 
 ![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Overview.gif)  
 
 ## Introducción
 
-Este dashboard fue creado para **personas que buscan empleo**, con el objetivo de resolver un problema común: la información sobre el mercado laboral de datos está dispersa y es difícil de interpretar. Utilizando un conjunto de datos real de vacantes en ciencia de datos correspondientes a 2024 (incluyendo puestos, salarios y ubicaciones), este proyecto ofrece una interfaz única y fácil de usar para explorar tendencias del mercado y niveles de compensación.
+Este dashboard fue creado para **personas que buscan empleo** con el objetivo de proporcionar datos reales y precisos acerca del mercado laboral en ciencia, ingeniería y análisis de datos correspondientes a 2024 (incluyendo puestos, salarios y ubicaciones). Este proyecto ofrece una interfaz única y fácil de usar para explorar tendencias del mercado y niveles de compensación.
 
 ### Archivo del Dashboard
 Puedes encontrar el archivo del dashboard aquí: [`Data_Jobs_Dashboard.pbix`](Data_Jobs_Dashboard.pbix).  
 
 ## Habilidades Destacadas
 
-Este proyecto requirió el uso de múltiples funcionalidades de Power BI:
+Este proyecto requirió múltiples funcionalidades de Power BI:
 
 - **Transformación de Datos (ETL) con Power Query:** Limpieza, modelado y preparación de los datos en bruto para el análisis, manejando valores nulos, cambiando tipos de datos y creando nuevas columnas.
 
@@ -44,7 +42,7 @@ Este proyecto requirió el uso de múltiples funcionalidades de Power BI:
 
 ![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page1.gif)
 
-Esta página funciona como un centro de control del mercado laboral en datos. Muestra KPIs clave como el total de vacantes, salarios medianos y los principales puestos de trabajo, permitiendo comprender rápidamente qué está ocurriendo en el mercado laboral de un solo vistazo.
+Esta página funciona como un centro de control del mercado laboral. Muestra KPIs clave como el total de vacantes, salarios medianos y los principales puestos de trabajo, permitiendo comprender rápidamente qué está ocurriendo en el mercado laboral de un solo vistazo.
 
 ### Página 2: Análisis Detallado por Puesto
 
