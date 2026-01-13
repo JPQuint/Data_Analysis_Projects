@@ -19,29 +19,50 @@ La metodología utilizada está divididaa en tres pasos, la estrategia para pres
 
 Esta primera parte consiste delimitar el análisis, reconocer el tipo de audiencia que se tiene y . Para esto se plantearon las siguientes preguntas.
 
-- **¿Cuál es la temática?:** Mercado laboral de trabajos sobre datos en 2023 y 2024
+- **Delimitación:** La temática es el mercado laboral de trabajos sobre datos en 2023 y 2024. Ahora, hay muchas aproximaciones posibles (exploratorios, analíticos y explicativos). Por eso es importante plantear algunas preguntas (qué, cómo, cuando, dónde)que delimiten la investigación, en este caso son:
 
-- ¿Qué se requiere para un trabajo de analista de datos?
+    - ¿Qué se requiere para un trabajo de analista, ingeniero o científico de datos?
 
-- ¿Quiénes publican los las ofertas? ¿Para quiénes están dirigidas?
+    - ¿Qué cualidades tienen estas ofertas (salario, trabajo remoto, etc.)?
 
-- ¿Dónde se publican las ofertas?
+    - ¿Cuándo se publican las ofertas?
 
-- ¿Cuándo se publican las ofertas?
+    - ¿Para quiénes están dirigidas las ofertas?
 
-- ¿Por qué se publican en esas plataformas? ¿Por qué se publican en esas fechas?
+- **¿Cuál es la audiencia objetivo?:** Analistas, ingenieros o científicos de datos que buscan tener un panorama sobre el mercado laboral. Tiempo breve (1 minuto máximo) para consultar la visualización.
 
-- **¿Cuál es la audiencia objetivo?:** Analistas, ingenieros o científicos de datos en busca de empleo, con conocimientos del tema y experiencia en el uso de datos. Tiempo breve (1 minuto máximo) para consultar la visualización.
+- **El objetivo principal** es otorgar información relevante (salarios, habilidades demandadas, tendencias de las publicaciones de empleo) para gente analistas, ingeniero o científicos de datos junior que buscan trabajo en el área de datos.
 
-Analistas de datos en busca de empleo, con conocimientos del tema y experiencia en el uso de datos, consulta mediante computadora.
+- Para cumplir este objetivo, se han elegido los siguientes **indicadores:** 
+    - El número de empleos 
+    - La mediana del salario anual promedio
+    - El promedio de habilidades demandadas por cada rol 
+    - Las habilidades más demandadas 
+    - Las tendencias de publicaciones de empleo
+    - El porcentaje de trabajos remotos  
+    - El porcentaje de ofertas que mencionan un título.
+    
+    
+Con esta estrtegia se puede lograr un dashbord simple, con información concisa,relevante y sin ruido visual.
+
+## Manejo de los datos
+
+En este caso, se cuenta con data sets separados para los años 2023 y 2024. Cada uno cuenta con cuatro tablas y con sus identificadores propios. Esto significa que no se puede hacer unión de las tablas descuidadamente porque los identificadores se repetirían. Por lo tanto, se tuvo que hacer limpieza y un nuevo modelado en Power Query
+
+### Power Query
+
+![2.0_Power_Query1](/0_Resources/Images/PowerBI_projects/Project2_Power_Query1.JPG)
+
+Cargar las tablas
+
+Crear id_global
+
+Merge y limpieza de id_global para crear keys
+
+Mencionar las desventajas de Power Query para este proceso, venta de SQL
 
 
-Objetivo: El objetivo principal es otorgar información relevante para analistas de datos que buscan trabajo en México.
-¿Cómo se quiere ayudar al usuario? Se le quiere proporcionar datos sobre salarios, número de puestos, fechas de ofertas,
-locaciones de las ofertas y habilidades requeridas para que pueda tomar decisiones informadas sobre su futuro profesional.
-
-Indicadores: median yearly salary (hourly), most demanded skills, job postingg trends, wfh and dregreee mention.
-
+## Diseño
 
 
 
