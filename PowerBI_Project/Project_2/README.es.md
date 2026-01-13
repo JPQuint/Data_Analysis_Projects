@@ -4,25 +4,34 @@
 
 ## Introducción
 
+El dashboard del primer proyecto permite un análisis muy rico del mercado laboral para científicos, ingenieros y analistas de datos en 2024. No obstante, el exceso de información puede ser contraproducente, pues se desvía la atención de los puntos más importantes. Por esta razón, creé un dashbord más limpio y conciso siguiendo la [Guía de visualización de datos del gobierno de Catalunya](https://atenciociutadana.gencat.cat/web/.content/manuals/visualitzacio_dades/guia_visualitzacio_es.pdf). Además, decidí ampliar el dataset incluyendo información de 2023 y 2024.
 
-The first dashbopard is more kind of a mix between data exploration and data analysis dashboard. What we want is an analyisis. Creo que si es análisis pero del mercado en general
 
-Temática: Ofertas laborales de analistas de datos en México
+### Dashboard File
+El dashboard final se puede encontrar aquí: [`Dashboard_2.0.pbix`](Dashboard_2.0.pbix).
 
-¿Qué se requiere para un trabajo de analista de datos?
 
-¿Quiénes publican los las ofertas? ¿Para quiénes están dirigidas?
+## Metodología
 
-¿Dónde se publican las ofertas?
+La metodología utilizada está divididaa en tres pasos, la estrategia para presentar la información, el manejo de los datos y el diseño.
 
-¿Cuándo se publican las ofertas?
+### Estrategia
 
-¿Por qué se publican en esas plataformas? ¿Por qué se publican en esas fechas?
+Esta primera parte consiste delimitar el análisis, reconocer el tipo de audiencia que se tiene y . Para esto se plantearon las siguientes preguntas.
 
-¿Cómo...?
+- **¿Cuál es la temática?:** Mercado laboral de trabajos sobre datos en 2023 y 2024
 
-Audiencia: Reclutadores con conocimientos del tema y experiencia en el uso de datos, consulta mediante computadora, 
-El objetivo es demostrar la capacidad de visualizar datos mediante Power BI, poco tiempo para consultar la visualización, a lo mucho 1-2 minutos.
+- ¿Qué se requiere para un trabajo de analista de datos?
+
+- ¿Quiénes publican los las ofertas? ¿Para quiénes están dirigidas?
+
+- ¿Dónde se publican las ofertas?
+
+- ¿Cuándo se publican las ofertas?
+
+- ¿Por qué se publican en esas plataformas? ¿Por qué se publican en esas fechas?
+
+- **¿Cuál es la audiencia objetivo?:** Analistas, ingenieros o científicos de datos en busca de empleo, con conocimientos del tema y experiencia en el uso de datos. Tiempo breve (1 minuto máximo) para consultar la visualización.
 
 Analistas de datos en busca de empleo, con conocimientos del tema y experiencia en el uso de datos, consulta mediante computadora.
 
@@ -40,12 +49,9 @@ Indicadores: median yearly salary (hourly), most demanded skills, job postingg t
  
 ![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Overview.gif)  
  
-## Introduction
+
  
-This dashboard was created for **Job Seekers** with the objective of providing real and precisa data about the data science job market in 2024 (including titles, salaries, and locations).This project provides a single, easy-to-use interface to explore market trends and compensation.
- 
-### Dashboard File
-You can find the file for the dashboard here: [`Data_Jobs_Dashboard.pbix`](Data_Jobs_Dashboard.pbix).  
+
  
 ## Skills Showcased
  
