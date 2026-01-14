@@ -2,9 +2,11 @@
 
 # Proyecto 2 – Dashboard
 
+![Data Dashboard Page](/0_Resources/Images/PowerBI_projects/Project2_Dashboard1.JPG)
+
 ## Introducción
 
-El dashboard del primer proyecto permite un análisis muy rico del mercado laboral para científicos, ingenieros y analistas de datos en 2024. No obstante, el exceso de información puede ser contraproducente, pues se desvía la atención de los puntos más importantes. Por esta razón, creé un dashbord más limpio y conciso siguiendo la [Guía de visualización de datos del gobierno de Catalunya](https://atenciociutadana.gencat.cat/web/.content/manuals/visualitzacio_dades/guia_visualitzacio_es.pdf). Además, decidí ampliar el dataset incluyendo información de 2023 y 2024.
+El dashboard del primer proyecto permite un análisis muy rico del mercado laboral para científicos, ingenieros y analistas de datos en 2024. No obstante, el exceso de información puede ser contraproducente, pues se desvía la atención de los puntos más importantes. Por esta razón, creé un dashboard más limpio y conciso siguiendo la [Guía de visualización de datos del gobierno de Catalunya](https://atenciociutadana.gencat.cat/web/.content/manuals/visualitzacio_dades/guia_visualitzacio_es.pdf). Además, decidí ampliar el data set incluyendo información de 2023 y 2024.
 
 
 ### Dashboard File
@@ -13,13 +15,13 @@ El dashboard final se puede encontrar aquí: [`Dashboard_2.0.pbix`](Dashboard_2.
 
 ## Metodología
 
-La metodología utilizada está divididaa en tres pasos, la estrategia para presentar la información, el manejo de los datos y el diseño.
+La metodología utilizada está dividida en tres pasos, la estrategia para presentar la información, el manejo de los datos y el diseño.
 
 ### Estrategia
 
-Esta primera parte consiste delimitar el análisis, reconocer el tipo de audiencia que se tiene y . Para esto se plantearon las siguientes preguntas.
+Esta primera parte consiste delimitar el análisis, reconocer el tipo de audiencia que se tiene y aclarar el objetivo informativo:
 
-- **Delimitación:** La temática es el mercado laboral de trabajos sobre datos en 2023 y 2024. Ahora, hay muchas aproximaciones posibles (exploratorios, analíticos y explicativos). Por eso es importante plantear algunas preguntas (qué, cómo, cuando, dónde)que delimiten la investigación, en este caso son:
+- **Delimitación:** La temática es el mercado laboral de trabajos sobre datos en 2023 y 2024. Ahora, hay muchas aproximaciones posibles (exploratorios, analíticos y explicativos). Por eso es importante plantear algunas preguntas (qué, cómo, cuándo, dónde, por qué) que delimiten la investigación, en este caso son:
 
     - ¿Qué se requiere para un trabajo de analista, ingeniero o científico de datos?
 
@@ -31,7 +33,7 @@ Esta primera parte consiste delimitar el análisis, reconocer el tipo de audienc
 
 - **¿Cuál es la audiencia objetivo?:** Analistas, ingenieros o científicos de datos que buscan tener un panorama sobre el mercado laboral. Tiempo breve (1 minuto máximo) para consultar la visualización.
 
-- **El objetivo principal** es otorgar información relevante (salarios, habilidades demandadas, tendencias de las publicaciones de empleo) para gente analistas, ingeniero o científicos de datos junior que buscan trabajo en el área de datos.
+- **El objetivo principal** es otorgar información relevante (salarios, habilidades demandadas, tendencias de las publicaciones de empleo) para  analistas, ingenieros o científicos de datos junior que buscan trabajo en el área de datos.
 
 - Para cumplir este objetivo, se han elegido los siguientes **indicadores:** 
     - El número de empleos 
@@ -43,76 +45,67 @@ Esta primera parte consiste delimitar el análisis, reconocer el tipo de audienc
     - El porcentaje de ofertas que mencionan un título.
     
     
-Con esta estrtegia se puede lograr un dashbord simple, con información concisa,relevante y sin ruido visual.
+Con esta estrategia se puede lograr un dashboard simple, con información concisa,relevante y sin ruido visual.
 
 ## Manejo de los datos
 
-En este caso, se cuenta con data sets separados para los años 2023 y 2024. Cada uno cuenta con cuatro tablas y con sus identificadores propios. Esto significa que no se puede hacer unión de las tablas descuidadamente porque los identificadores se repetirían. Por lo tanto, se tuvo que hacer limpieza y un nuevo modelado en Power Query
+En este caso, se cuenta con data sets separados para los años 2023 y 2024. Cada uno cuenta con cuatro tablas y tiene sus identificadores propios. Esto significa que no se puede hacer una simple unión de las tablas porque los identificadores se repetirían. Por lo tanto, se tuvo que hacer limpieza y un nuevo modelado en Power Query
 
 ### Power Query
 
-![2.0_Power_Query1](/0_Resources/Images/PowerBI_projects/Project2_Power_Query1.JPG)
+**1. Cargar y preparar las tablas** 
 
-Cargar las tablas
+Primero se cargaron las tablas y se les dió una pequeña limpieza. Se crearon nuevas columnas "*X*_id_global"
+cuyo contenido eran los indentificadores originales para poder unir las tablas.
 
-Crear id_global
+![Power Query Applied Steps 1](/0_Resources/Images/PowerBI_projects/Project2_Power_Query1.JPG)
+*La tabla principal del data set 2023*
 
-Merge y limpieza de id_global para crear keys
+**2. Crear nuevos indicadores** 
 
-Mencionar las desventajas de Power Query para este proceso, venta de SQL
+No obstante, esta estrategia no sirve para todos los identificadores. Por ejemplo, "skill_id" tiene el propósito de representar habilidades de la siguiente manera: 
+
+| Skills_id     | skill_name        |
+|---------------|------------------:|
+| 1             |               sql |
+| 2             |            Python |
+| 3             |                 R |
+
+Cómo las skills_id no coinciden en ambos años, pero el nombre de las habilidades se mantiene, se debe crear otro identificador ("skill_key") para evitar mezclar o perder información. Esto requirió una serie de cuidadosos merge para obtener las tablas finales. Lamentablemente, por como funciona merge en Power Query, se deben mantener tablas residuales que ralentizan el procesamiento de datos (aunque no la visualización), algo que con SQL se podría evitar.
+
+![Power Query Applied Steps2](/0_Resources/Images/PowerBI_projects/Project2_Power_Query3.JPG)
+
+
+![Power Query Tables](/0_Resources/Images/PowerBI_projects/Project2_Power_Query2.JPG)
+*"job_postings_fact" quedó con 1,266,581 filas totales.*
+
+### Measures & DAX
+
+Ya por último, se creó una serie de de *measures* utilizando DAX para ayudar a representar varios de los indicadores por utilizar en el dashboard.
+
+![Measures](/0_Resources/Images/PowerBI_projects/Project2_Dashboard2.JPG)
+
+![Data Model](/0_Resources/Images/PowerBI_projects/Project2_Dashboard3.JPG) *El modelado final*
+
 
 
 ## Diseño
 
+Por último se diseño el dashboard teniendo en cuenta:
+- Las mejores visualizaciones para representar cada indicador (line chart, bar chart, donut chart).
+- La importancia de los indicadores y cómo solemos mirar información (de izquierda a derecha y de arriba a abajo).
+- Sencillez gráfica y colores adecuados.
 
-
-# Data Jobs Dashboard w/ Power BI
- 
-![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Overview.gif)  
- 
-
- 
-
- 
-## Skills Showcased
- 
-This project required multiple Power Bi features:
- 
--   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
- 
--   **Implicit Measures:** Formulated measures to derive key insights and KPIs like `Median Yearly Salary` and `Job Count`.
- 
--   **Core Charts:** Utilized **Column, Bar, Line,** and **Area Charts** to compare job counts and track trends over time.
- 
--   **Geospatial Analysis:** Implimentend a map to visualize the global distribution of jobs.
- 
--   **KPI Indicators & Tables:** Used **Cards** to display key metrics and **Tables** to provide precise data.
- 
--   **Dashboard Design:** Designed an intuitive and visually appealing layout, exploring both common and uncommon chart types to best tell the data story.
--   **Interactive Reporting:**
-    -   **Slicers:** To dynamically filter the report by Job Title.
-    -   **Buttons & Bookmarks:** To create a seamless navigation experience.
-    -   **Drill-Through:** To navigate from a high-level summary to a contextual, detailed view.
----
- 
-## Dashboard Overview
- 
-*This report is split into two distinct pages to provide both a high-level summary and a detailed analysis.*
- 
-### Page 1: High-Level Market View
- 
-![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page1.gif)  
- 
-This is a mission control for the data job market. It showcases key KPIs like total job count, median salaries, and top job titles to give you a quick understanding of what's happening in the job market at a glance.
- 
-### Page 2: Job Title Drill Through
- 
-![Dashboard de Empleos en Datos Página 2](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page2.gif)    
- 
-This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations.
- 
+![Data Dashboard GIF](0_Resources/Images/PowerBI_projects/Project2_Dashboard.gif)  
+  
 ---
  
 ## Conclusión
  
-This dashboard showcases how Power BI can transform raw job posting data into a powerful tool for career analysis. It allows users to slice, filter, and drill through data to make informed decisions about their career paths.
+Gracias a un replanteamiento estratégico sobre la visualización de datos, se generó un dashboard revisado que permite obtener información relevante y de manera sencilla sobre el mercado laboral de datos en 2023 y 2024, incluyendo indicadores claves como los salarios, las habilidades más demandadas, las tendencias de publicación de empleo y el porcentaje de trabajos remotos. Así, se evita el ruido de métricas menos importantes que podían impedir los objetivos de información en el primer dashboard.
+
+Para esto, se profundizó en las habilidades de:
+- Estrategia de visualización de datos
+- Power Query
+- Measures & DAX
+- Diseño

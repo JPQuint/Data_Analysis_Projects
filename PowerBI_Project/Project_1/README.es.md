@@ -1,6 +1,6 @@
 🌎 Read this in: [English](README.md) | [Español](README.es.md)
 
-# Dashboard de Empleos en Datos con Power BI
+# Project 1 – Dashboard con Power BI
 
 ![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Overview.gif)  
 
