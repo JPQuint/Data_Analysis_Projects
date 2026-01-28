@@ -51,22 +51,22 @@ It includes detailed information on:
 - Then, I transformed each query by changing column types, removing unnecessary columns and cleaning text to eliminate specific characters.
     - data_jobs_all
 
-        ![2_Power_Query1.jpg](/0_Resources/Images/Excel_projects/2_Power_Query1.jpg)
+        ![1_Power_Query1.jpg](/0_Resources/Images/Excel_projects/2_Power_Query1.JPG)
 
     - data_job_skills
 
-        ![2_Power_Query2.jpg](/0_Resources/Images/Excel_projects/2_Power_Query2.jpg)
+        ![2_Power_Query2.jpg](/0_Resources/Images/Excel_projects/2_Power_Query2.JPG)
 
 #### C) Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
     - data_jobs_all
 
-        ![2_Power_Query3.jpg](/0_Resources/Images/Excel_projects/2_Power_Query3.jpg)
+        ![3_Power_Query3.jpg](/0_Resources/Images/Excel_projects/2_Power_Query3.JPG)
 
     - data_job_skills
 
-        ![2_Power_Query4.jpg](/0_Resources/Images/Excel_projects/2_Power_Query4.jpg)
+        ![4_Power_Query4.jpg](/0_Resources/Images/Excel_projects/2_Power_Query4.JPG)
 
 ### 📊 Analysis
 
