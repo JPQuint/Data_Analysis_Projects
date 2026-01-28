@@ -2,7 +2,7 @@
 
 # Project 1 – Dashboard con Power BI
 
-![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Overview.gif)  
+![Data Jobs Dashboard Page 1](/0_Resources/Images/PowerBI_projects/Project1_Dashboard_Overview.gif)  
 
 ## Introducción
 
@@ -40,13 +40,13 @@ Este proyecto requirió múltiples funcionalidades de Power BI:
 
 ### Página 1: Vista General del Mercado
 
-![Data Jobs Dashboard Page 1](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page1.gif)
+![Data Jobs Dashboard Page 1](/0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page1.gif)
 
 Esta página funciona como un centro de control del mercado laboral. Muestra KPIs clave como el total de vacantes, salarios medianos y los principales puestos de trabajo, permitiendo comprender rápidamente qué está ocurriendo en el mercado laboral de un solo vistazo.
 
 ### Página 2: Análisis Detallado por Puesto
 
-![Dashboard de Empleos en Datos Página 2](0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page2.gif)  
+![Dashboard de Empleos en Datos Página 2](/0_Resources/Images/PowerBI_projects/Project1_Dashboard_Page2.gif)  
 
 Esta es la página de análisis profundo. Desde el dashboard principal, se puede navegar a esta vista para obtener información específica de un solo puesto, incluyendo rangos salariales, estadísticas de trabajo remoto, principales plataformas de contratación y un mapa global de las ubicaciones de las vacantes.
 
