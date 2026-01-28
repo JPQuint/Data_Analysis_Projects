@@ -51,7 +51,7 @@ Incluye información detallada sobre:
 - Posteriormente transformé cada consulta cambiando tipos de columnas, eliminando columnas innecesarias y limpiando texto para remover caracteres específicos.
     - data_jobs_all  
 
-        ![2_Power_Query1.jpg](/0_Resources/Images/Excel_projects/2_Power_Query1.jpg)
+        ![1_Power_Query1.jpg](/0_Resources/Images/Excel_projects/2_Power_Query1.jpg)
 
     - data_job_skills  
 
@@ -62,11 +62,11 @@ Incluye información detallada sobre:
 - Finalmente, cargué ambas consultas transformadas, estableciendo la base para el análisis posterior.
     - data_jobs_all  
 
-        ![2_Power_Query3.jpg](/0_Resources/Images/Excel_projects/2_Power_Query3.jpg)
+        ![3_Power_Query3.jpg](/0_Resources/Images/Excel_projects/2_Power_Query3.jpg)
 
     - data_job_skills  
 
-        ![2_Power_Query4.jpg](/0_Resources/Images/Excel_projects/2_Power_Query4.jpg)
+        ![4_Power_Query4.jpg](/0_Resources/Images/Excel_projects/2_Power_Query4.jpg)
 
 ### 📊 Análisis
 
