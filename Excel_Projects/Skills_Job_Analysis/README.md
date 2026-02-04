@@ -136,7 +136,7 @@ It includes detailed information on:
 
 ### 📊Analysis
 
-####Insights
+#### Insights
 
 - **SQL** and **Python** dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
 - **Emerging technologies** like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
@@ -159,7 +159,7 @@ It includes detailed information on:
 
 ### 📊 Analysis
 
-#### nsights
+#### Insights
 
 - **Higher median salaries** are associated with skills like Python, Oracle, and SQL, suggesting their critical role in high-paying tech jobs.
 - Skills like PowerPoint and Word have the lowest median salaries and likelihood, indicating less specialization and demand in high-salary sectors.
